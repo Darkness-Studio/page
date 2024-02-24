@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import NavTabs from "./nav-tabs";
 export default function Nav() {
 
     const [isClick, setIsClick] = useState(false);
@@ -10,39 +11,23 @@ export default function Nav() {
         setIsClick(!isClick);
     }
 
+
     return (
-        <nav className="fixed top-0 w-full py-2 px-8 z-50 bg-white shadow text-black">
+        <nav className="fixed top-0 w-full py-2 px-8 z-50 bg-neutral-950/95 shadow border-b border-white/50 text-black">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="flex items-center justify-between h-12">
                     <div className="flex items-center">
                         <div className="flex-shrink-0">
                             
-                            <Link href="/" className="text-red-600 font-bold text-xl flex items-center">
-                                <Image src="/logo.png" alt="Logo" width={100} height={100} className="h-14 w-14" />
+                            <Link href="/" className="text-white font-bold text-xl flex items-center">
+                                <Image src="/logo.png" alt="Logo" width={100} height={100} className="h-14 w-14 rounded-full p-2" />
                                 Darkness Studio
                             </Link>
                         </div>
                     </div>
                     <div className="hidden md:block">
                         <div className="ml-4 flex items-center space-x-4 font-bold">
-                            <Link
-                                href="/"
-                                className="text-black hover:text-red-600 px-1  rounded-md "
-                            >
-                                Documentation
-                            </Link>
-                            <Link
-                                href="/about"
-                                className="text-black hover:text-red-600 px-1 rounded-md "
-                            >
-                                Nocturnal-Ruse
-                            </Link>
-                            <Link
-                                href="/contact"
-                                className="text-black hover:text-red-600 px-1  rounded-md "
-                            >
-                                Contact
-                            </Link>
+                            <NavTabs/>
                         </div>
                     </div>
                     <div className="md:hidden flex items-center">
@@ -89,24 +74,7 @@ export default function Nav() {
             {isClick &&(
                 <div className="md:hidden">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                        <Link
-                            href="/"
-                            className="text-black hover:text-red-600 block px-3 py-2 rounded-md text-base font-medium"
-                        >
-                            Documentation
-                        </Link>
-                        <Link
-                            href="/about"
-                            className="text-black hover:text-red-600 block px-3 py-2 rounded-md text-base font-medium"
-                        >
-                            Nocturnal-Ruse
-                        </Link>
-                        <Link
-                            href="/contact"
-                            className="text-black hover:text-red-600 block px-3 py-2 rounded-md text-base font-medium"
-                        >
-                            Contact
-                        </Link>
+                        <NavTabs/>
                     </div>
                 </div>
             )}

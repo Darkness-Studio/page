@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={clsx("bg-white",inter.className)}>
+      <body className={clsx("bg-neutral-950 text-white",inter.className)}>
         <Nav />
         <main className="pt-16 items-center justify-center">{children}</main>
         <Footer />

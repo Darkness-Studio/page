@@ -1,16 +1,23 @@
+import Link from "next/link";
 import Apresentation from "./components/Apresentation";
+
 
 export default function Home() {
   return (
-    <main>
+    <main className="md:px-48 px-4 md:pt-10 pt-6">
       <Apresentation />
-      <main className="px-10 py-5">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quos veritatis, harum labore alias odio numquam omnis autem a fuga, illum mollitia, libero ipsa unde id dolorem et ducimus porro?</p>
-      <br />
-      <h2 className="text-2xl font-bold">Test</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore adipisci commodi, quia et minus optio eius numquam quam pariatur, doloremque deleniti maiores nesciunt at eveniet facilis laboriosam quo totam temporibus?</p>
+    <div className="flex ">
+      <main className=" py-5 order-2">
+        <h2 className="text-3xl font-bold">Releases</h2>
+        <Link className="py-4 underline"  href="https://github.com/Darkness-Studio/Nocturnal-Ruse">actual version: v0.0.0.0</Link>
+        <h2 className="text-3xl font-bold">Final-lore</h2>
+        <p className="py-2">Long ago, in a land forgotten by many, a knight arrived with hopes of finding a safe haven for his people from the ravages of war. Upon returning home, he regaled his king with tales of this promising land, where he vowed to shoulder the responsibility for its inhabitants. Encouraged by his words, the king proclaimed him ruler of this newfound refuge.</p>
+        <p className="py-2">As time passed, the once-fledgling land burgeoned into a prosperous kingdom, boasting a flourishing civilization now known as &quot;Kingdom&apos;s Name.&quot; The populace enjoyed abundance and security, content to make this new realm their permanent home. Meanwhile, the old king of Avadest, now without a kingdom of his own, resolved not to accept his fate.</p>
+        <p className="py-2">With a band of loyal knights, he journeyed to the neighboring kingdom of Carnian, intent on persuading its ruler to lay claim to the bountiful land. Unbeknownst to him, the king of Carnian harbored ulterior motives, seeking to seize the land for himself. Employing his most trusted advisor, he orchestrated a scheme to eliminate any obstacles to his ambitions.</p>
+        <p className="py-2">The advisor, cunning and treacherous, concocted a poison designed not to kill, but to compel obedience. First, he administered it to the king of Avadest, ensuring he posed no threat. Then, he set his sights on the king of &quot;Kingdom&aspos;s Name,&quot; plotting to ensnare him in his web of control.</p>
+        <br />
       </main>
+    </div>
     </main>
   );
 }
