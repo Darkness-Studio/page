@@ -32,7 +32,7 @@ export default function Nav() {
                     </div>
                     <div className="md:hidden flex items-center">
                         <button
-                        className="inline-flex items-center justify-center p-2 rounded-md text-gray-400  hover:text-black  "
+                        className="inline-flex items-center justify-center p-2 rounded-md text-white  "
                         onClick={toggleNavBar}
                         >
                             {isClick ? (
