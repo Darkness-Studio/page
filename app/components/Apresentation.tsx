@@ -4,9 +4,9 @@ import Link from "next/link"
 export default function Apresentation(){
   return(
     <>
-    <div className=" relative grid rounded flex-col items-end py-20 justify-center overflow-hidden  bg-white bg-clip-border text-center text-gray-700">
+    <div className=" relative grid rounded flex-col items-end py-32 md:py-20 justify-center overflow-hidden  bg-white bg-clip-border text-center text-gray-700">
       <div
-        className="bg-fixed	 absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('/back.avif')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
+        className=" bg-fixed absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('/Fundo.webp')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
         <div className="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/80 via-black/50"></div>
       </div>
       <div className="relative p-6 px-6 py-14 md:px-12">
