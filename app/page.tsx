@@ -10,7 +10,7 @@ export default function Home() {
       <main className=" py-5 order-2">
         <h2 className="text-3xl font-bold">Releases</h2>
         <p className="py-2"><Link className="py-4 underline"  href="https://github.com/Darkness-Studio/Nocturnal-Ruse">actual version: v0.0.0.0</Link></p>
-        <h2 className="text-3xl font-bold">Final-lore</h2>
+        <h2 className="text-3xl font-bold">Lore</h2>
         <p className="py-2">Long ago, in a land forgotten by many, a knight arrived with hopes of finding a safe haven for his people from the ravages of war. Upon returning home, he regaled his king with tales of this promising land, where he vowed to shoulder the responsibility for its inhabitants. Encouraged by his words, the king proclaimed him ruler of this newfound refuge.</p>
         <p className="py-2">As time passed, the once-fledgling land burgeoned into a prosperous kingdom, boasting a flourishing civilization now known as &quot;Kingdom&apos;s Name.&quot; The populace enjoyed abundance and security, content to make this new realm their permanent home. Meanwhile, the old king of Avadest, now without a kingdom of his own, resolved not to accept his fate.</p>
         <p className="py-2">With a band of loyal knights, he journeyed to the neighboring kingdom of Carnian, intent on persuading its ruler to lay claim to the bountiful land. Unbeknownst to him, the king of Carnian harbored ulterior motives, seeking to seize the land for himself. Employing his most trusted advisor, he orchestrated a scheme to eliminate any obstacles to his ambitions.</p>
