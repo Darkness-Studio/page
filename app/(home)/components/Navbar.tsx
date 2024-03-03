@@ -10,8 +10,7 @@ export default function Nav() {
     const toggleNavBar = () => {
         setIsClick(!isClick);
     }
-
-
+    
     return (
         <nav className="fixed top-0 w-full py-2 md:px-8 z-50 bg-neutral-950/95 shadow">
             <div className="max-w-7xl mx-auto px-4">
