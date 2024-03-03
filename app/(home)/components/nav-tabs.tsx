@@ -9,10 +9,7 @@ export default function NavTabs() {
     }
 
     const navLinks: TabsItems[] = [
-        {
-            name: "Nocturnal-Ruse",
-            src: "/nocturnal-ruse"
-        },
+
         {
             name: "Projects",
             src: "/projects"

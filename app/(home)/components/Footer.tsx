@@ -7,7 +7,7 @@ export default function Footer(){
 <footer className="bg-neutral-950  shadow mt-20">
     <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
-            <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+            <a href="https://github.com/Darkness-Studio" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                 <Image width={100} height={100} src="/logo.png" className="relative inline-block  border-2 border-white object-cover object-center" alt="Flowbite Logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap">Darkness Studio</span>
             </a>

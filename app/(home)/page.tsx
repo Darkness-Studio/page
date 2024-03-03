@@ -1,8 +1,10 @@
+"use client";
 import Link from "next/link";
-import Apresentation from "./components/Apresentation";
+import Apresentation from "./components/Apresentation"
 
 
 export default function Home() {
+
   return (
     <main className="md:px-48 px-4 md:pt-10 pt-6">
       <Apresentation />
